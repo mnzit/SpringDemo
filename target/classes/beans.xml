@@ -8,17 +8,17 @@
                     http://www.springframework.org/schema/util/spring-util-2.5.xsd">
 
     <!-- bean definitions here -->
-    <bean id="testService2" class="com.sudreeshya.demo.TestService2" autowire="byType"/>
-    <bean id="t" class="com.sudreeshya.demo.TestService"/>
-    <bean id="person" class="com.sudreeshya.demo.Person">
-        <property name="id" value="1"/>
-        <property name="name" value="Manjit"/>
-        <property name="age" value="23"/>
-        <property name="nickNames" ref="myNickNames"/>
-    </bean>
+<!--    <bean id="testService2" class="com.sudreeshya.demo.TestService2" autowire="byType"/>-->
+<!--    <bean id="testService1" class="com.sudreeshya.demo.TestService" init-method="initMethod"/>-->
+<!--    <bean id="person" class="com.sudreeshya.demo.Person">-->
+<!--        <property name="id" value="1"/>-->
+<!--        <property name="name" value="Manjit"/>-->
+<!--        <property name="age" value="23"/>-->
+<!--        <property name="nickNames" ref="myNickNames"/>-->
+<!--    </bean>-->
 
-    <util:list id="myNickNames" value-type="java.lang.String">
-        <value>mnzit</value>
-        <value>mln</value>
-    </util:list>
+<!--    <util:list id="myNickNames" value-type="java.lang.String">-->
+<!--        <value>mnzit</value>-->
+<!--        <value>mln</value>-->
+<!--    </util:list>-->
 </beans>

@@ -1,0 +1,15 @@
+2021-11-11 20:08:21 TRACE DefaultListableBeanFactory:257 - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2021-11-11 20:08:21 TRACE DefaultListableBeanFactory:257 - Returning cached instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2021-11-11 20:08:21 TRACE DefaultListableBeanFactory:257 - Returning cached instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2021-11-11 20:08:21 DEBUG DefaultListableBeanFactory:217 - Creating shared instance of singleton bean 'testService3'
+2021-11-11 20:08:21 TRACE DefaultListableBeanFactory:482 - Creating instance of bean 'testService3'
+2021-11-11 20:08:21 DEBUG TestService3:10 - TestService3 is constructed
+2021-11-11 20:08:21 TRACE DefaultListableBeanFactory:585 - Eagerly caching bean 'testService3' to allow for resolving potential circular references
+2021-11-11 20:08:21 TRACE DefaultListableBeanFactory:519 - Finished creating instance of bean 'testService3'
+2021-11-11 20:08:21 TRACE EventListenerMethodProcessor:166 - No @EventListener annotations found on bean class: com.sudreeshya.demo.TestService3
+2021-11-11 20:08:21 TRACE AnnotationConfigApplicationContext:802 - No 'lifecycleProcessor' bean, using [DefaultLifecycleProcessor]
+2021-11-11 20:08:21 TRACE DefaultListableBeanFactory:257 - Returning cached instance of singleton bean 'lifecycleProcessor'
+2021-11-11 20:08:21 TRACE PropertySourcesPropertyResolver:82 - Searching for key 'spring.liveBeansView.mbeanDomain' in PropertySource 'systemProperties'
+2021-11-11 20:08:21 TRACE PropertySourcesPropertyResolver:82 - Searching for key 'spring.liveBeansView.mbeanDomain' in PropertySource 'systemEnvironment'
+2021-11-11 20:08:21 TRACE PropertySourcesPropertyResolver:96 - Could not find key 'spring.liveBeansView.mbeanDomain' in any property source
+2021-11-11 20:08:21 TRACE SpringFactoriesLoader:100 - Loaded [org.springframework.beans.BeanInfoFactory] names: [org.springframework.beans.ExtendedBeanInfoFactory]
